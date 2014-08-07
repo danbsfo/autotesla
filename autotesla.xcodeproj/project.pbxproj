@@ -11,6 +11,8 @@
 		37C4CFBF19464CE10055C4C1 /* autotesla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37C4CFBD19464CE10055C4C1 /* autotesla.xcdatamodeld */; };
 		37C4CFC119464CE10055C4C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C4CFC019464CE10055C4C1 /* Images.xcassets */; };
 		37C4CFCD19464CE10055C4C1 /* autoteslaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C4CFCC19464CE10055C4C1 /* autoteslaTests.swift */; };
+		37C4CFD719464D840055C4C1 /* ControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C4CFD619464D840055C4C1 /* ControlsViewController.swift */; };
+		37C4CFD919464E3A0055C4C1 /* AutomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C4CFD819464E3A0055C4C1 /* AutomationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		37C4CFC619464CE10055C4C1 /* autoteslaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoteslaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C4CFCB19464CE10055C4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37C4CFCC19464CE10055C4C1 /* autoteslaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoteslaTests.swift; sourceTree = "<group>"; };
+		37C4CFD619464D840055C4C1 /* ControlsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsViewController.swift; sourceTree = "<group>"; };
+		37C4CFD819464E3A0055C4C1 /* AutomationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				37C4CFBB19464CE10055C4C1 /* AppDelegate.swift */,
+				37C4CFD819464E3A0055C4C1 /* AutomationViewController.swift */,
+				37C4CFD619464D840055C4C1 /* ControlsViewController.swift */,
 				37C4CFC019464CE10055C4C1 /* Images.xcassets */,
 				37C4CFBD19464CE10055C4C1 /* autotesla.xcdatamodeld */,
 				37C4CFB919464CE10055C4C1 /* Supporting Files */,
@@ -204,7 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C4CFBF19464CE10055C4C1 /* autotesla.xcdatamodeld in Sources */,
+				37C4CFD919464E3A0055C4C1 /* AutomationViewController.swift in Sources */,
 				37C4CFBC19464CE10055C4C1 /* AppDelegate.swift in Sources */,
+				37C4CFD719464D840055C4C1 /* ControlsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
